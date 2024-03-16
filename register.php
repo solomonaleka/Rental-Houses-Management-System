@@ -31,12 +31,12 @@ if (!filter_var($emailaddress, FILTER_VALIDATE_EMAIL) === false) {
     echo "<script> window.location.href=\"register.php\"; </script>";
 }
 
-if (!filter_var($phonenumber, FILTER_VALIDATE_INT) === false) {
-    echo "";
-} else {
-    echo "<script> alert('Enter correct phone number') </script>";
-    echo "<script> window.location.href=\"register.php\"; </script>";
-}
+// if (!filter_var($phonenumber, FILTER_VALIDATE_INT) === false) {
+//     echo "";
+// } else {
+//     echo "<script> alert('Enter correct phone number') </script>";
+//     echo "<script> window.location.href=\"register.php\"; </script>";
+// }
 
 
 $username = filter_var($username, FILTER_SANITIZE_STRING);

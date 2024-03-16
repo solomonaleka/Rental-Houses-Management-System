@@ -70,7 +70,7 @@
         </nav>
         <!-- Navbar -->
 
-        <!--<!-- Sidebar -->
+        <!-- Sidebar -->
         <div class="sidebar-fixed position-fixed">
 
             <?php
@@ -80,7 +80,7 @@
             <div class="list-group list-group-flush">
                 <a href="preview/single-roomed.php" class="list-group-item list-group-item-action waves-effect">
                     <i class="fa fa-institution mr-3">Single Roomed Houses</i></a>
-                <a href="preview/double-roomed" class="list-group-item list-group-item-action waves-effect">
+                <a href="preview/double-roomed.php" class="list-group-item list-group-item-action waves-effect">
                     <i class="fa fa-institution mr-3">Double Roomed Houses</i></a>
                 <a href="preview/apartment.php" class="list-group-item list-group-item-action waves-effect">
                     <i class="fa fa-institution mr-3">Apartments/Flats</i></a>
