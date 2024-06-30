@@ -119,10 +119,22 @@
 
 
 
-            <!--My code goes here,,,My code goes here-->
-
-            
-            <!--My code goes here,,,My code goes here-->
+        <!--My code goes here-->
+        <div class="card card-body">
+            <h4 class="card-title">You can reach out to us through the following channels:</h4>
+                <p class="card-text">You can reach out to us through the following channels:
+                    <ul class="list-group">
+                        <li class="list-group-item"> Facebook </li>
+                        <li class="list-group-item"> Twitter </li>
+                        <li class="list-group-item"> Instagram </li>
+                        <li class="list-group-item"> Youtube </li>
+                        <li class="list-group-item"> Tiktok </li>
+                        <li class="list-group-item"> Telegram </li>
+                        <li class="list-group-item"> Email </li>
+                    </ul>
+                </p>
+        </div>
+        <!--My code goes here-->
 
 
     </main>

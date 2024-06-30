@@ -45,13 +45,19 @@ $detail = filter_var($detail, FILTER_SANITIZE_STRING);
 
 // uploading an image and submitting to database.
     $picture_tmp = $_FILES['image']['tmp_name'];
-    $picture_name = $_FILES['image']['name'];
-    $picture_type = $_FILES['image']['type'];
+    $picture_name = $_FILES['image']['name'];//image
+    $picture_type = $_FILES['image']['type'];//file
     $allowed_type = array('image/png', 'image/gif', 'image/jpg', 'image/jpeg');
+
+    // <div class="form-group">
+    //     <label for="picture">House Image</label>
+    //     <input type="file" id="picture" name="image" class="form-control">  
+    // </div>
 
     if(in_array($picture_type, $allowed_type)) {
         $path = 'photos/'.$picture_name; //change this to your liking
-        $sql="insert into houses (house_type,amount,status,payment_status,destination_id,building_id,detail,image,house_number,house_position) values ('$housetype','$amount','$status','$paystatus','$destinationid','$buildingid','$detail','$path','$number','$position')";
+        // $sql="insert into houses (house_type,amount,status,payment_status,destination_id,building_id,detail,image,house_number,house_position) values ('$housetype','$amount','$status','$paystatus','$destinationid','$buildingid','$detail','$path','$number','$position')";
+        $sql="insert into houses (house_type,amount,status,deposit_payment,destination_id,building_id,detail,image,house_number,house_position) values ('$housetype','$amount','$status','$paystatus','$destinationid','$buildingid','$detail','$path','$number','$position')";
         $result=mysqli_query($db_conn,$sql);
         move_uploaded_file($picture_tmp, $path);
 

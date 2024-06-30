@@ -267,6 +267,7 @@ mysqli_close($db_conn);
     <label for="userrole">User Role:</label>
     <select class="form-control" id="userrole" name="userrole">
     <option>user</option>
+    <option>admin</option>
   </select>
     </div>
 

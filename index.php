@@ -27,7 +27,7 @@
 
                 <!-- Brand -->
                 <a class="navbar-brand waves-effect" target="_blank">
-                    <strong class="black-text">RENTAL HOUSE MANAGEMENT SYSTEM</strong>
+                    <strong class="black-text">RENTAL HOUSES MANAGEMENT SYSTEM</strong>
                 </a>
 
                 <!-- Collapse -->
